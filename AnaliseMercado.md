@@ -54,7 +54,7 @@ Os investimentos em tecnologia variam significativamente entre os segmentos do s
 
 ```mermaid
 pie
-    title Distribuição de Gastos com Tecnologia no Setor de O&G
+    title Investimentos em Tecnologia no Setor de O&G
     "E&P" : 38
     "Perfuração" : 12
     "FPSO" : 24
