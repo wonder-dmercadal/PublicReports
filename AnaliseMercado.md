@@ -2,273 +2,260 @@
 
 ## 1. Sumário Executivo
 
-A Wonder DataLabs (WDL) possui uma oportunidade significativa no setor de Óleo e Gás (O&G), especialmente aproveitando a experiência profunda da equipe fundadora neste mercado. Nossa análise identifica um caminho claro para crescimento exponencial através de vendas diretas, com foco em áreas onde nossa vantagem competitiva é mais pronunciada.
+A Wonder DataLabs (WDL) identificou um mercado potencial massivo no setor de Óleo e Gás (O&G), com 451 oportunidades mapeadas representando um potencial de receita conservador de R$ 831,1 milhões (podendo chegar a R$ 1,77 bilhão em cenário otimista).
 
-Este relatório apresenta uma análise abrangente do mercado de O&G, priorização de oportunidades e um plano de ação concreto para os próximos 12 meses. A estratégia proposta equilibra ambição com realismo, considerando nosso ciclo de vendas típico de 6 meses e taxas de conversão realistas para software enterprise B2B.
+Nossa análise focou em identificar as oportunidades de maior valor e probabilidade de conversão, resultando em 28 oportunidades classificadas como categoria A, com potencial conservador de R$ 35,5 milhões.
 
 **Avanços Estratégicos Recentes:**
 - O Sentinel está na fase final de seleção pela ANP como plataforma de referência para o setor
 - O Wise está sendo avaliado pela Petrobras como plataforma oficial de compartilhamento de conhecimento
 - Novo modelo de precificação para embarcações de apoio abre oportunidades significativas com efeito de rede
 
-## 2. Panorama do Mercado de O&G
+Esta estratégia prioriza crescimento exponencial através de vendas diretas focadas nas oportunidades de maior potencial, estabelecendo nossa presença nos segmentos mais lucrativos do mercado de O&G.
 
-### 2.1 Cenário Global e Brasileiro
+## 2. Panorama do Mercado de O&G e Potencial Total
 
-O setor de O&G no Brasil representa aproximadamente 13% do PIB nacional, com investimentos projetados de R$ 102 bilhões para os próximos cinco anos[¹]. A digitalização deste setor está em diferentes estágios de maturidade, com oportunidades significativas em todos os segmentos.
+### 2.1 Mercado Total Acessível (TAM - ARR)
+
+Nossa análise detalhada identifica um mercado endereçável massivo para as soluções da Wonder DataLabs:
 
 ```mermaid
 graph TD
-    A[Mercado de O&G] --> B[Upstream]
-    A --> C[Midstream]
-    A --> D[Downstream]
-    B --> E[Exploração]
-    B --> F[Perfuração]
-    B --> G[Produção/FPSO]
-    C --> H[Transporte]
-    C --> I[Armazenamento]
-    D --> J[Refino]
-    D --> K[Distribuição]
-    
-    E --> L[Maturidade Digital: Média]
-    F --> M[Maturidade Digital: Baixa]
-    G --> N[Maturidade Digital: Média-Alta]
-    H --> O[Maturidade Digital: Média]
-    I --> P[Maturidade Digital: Média-Baixa]
-    J --> Q[Maturidade Digital: Alta]
-    K --> R[Maturidade Digital: Média]
+    A[Mercado Total Acessível:<br>R$ 831,1 milhões - R$ 1,77 bilhão] --> B[Categoria A<br>R$ 35,5 milhões - R$ 85 milhões<br>28 oportunidades]
+    A --> C[Categoria B<br>R$ 108,9 milhões - R$ 282,6 milhões<br>103 oportunidades]
+    A --> D[Categoria C<br>R$ 686,7 milhões - R$ 1,40 bilhão<br>320 oportunidades]
 ```
 
-### 2.2 Desafios do Setor
+### 2.2 Investimentos em Tecnologia no Setor
 
-Os principais desafios enfrentados pelo setor de O&G que a WDL pode resolver incluem:
-
-1. **Perda de conhecimento crítico:** Aposentadoria de profissionais experientes e alta rotatividade
-2. **Ineficiências operacionais:** Processos manuais e sistemas desconectados
-3. **Decisões reativas vs. preditivas:** Falta de monitoramento em tempo real e análise preditiva
-4. **Complexidade de integração:** Sistemas legados e dificuldade de implementação
-
-### 2.3 Gastos com Tecnologia por Segmento
-
-Os investimentos em tecnologia variam significativamente entre os segmentos do setor de O&G:
+O setor de O&G no Brasil representa aproximadamente 13% do PIB nacional, com investimentos projetados de R$ 102 bilhões para os próximos cinco anos[¹]. A Petrobras sozinha anunciou plano de investimentos de US$ 78 bilhões para 2024-2028, com aproximadamente US$ 7,5 bilhões destinados a projetos de digitalização e novas tecnologias[³].
 
 ```mermaid
 pie
-    "E&P" : 38
-    "Perfuração" : 12
-    "FPSO" : 24
-    "Refino" : 18
-    "Midstream/Supply" : 8
+    
+    "Categoria A: R$ 35,5 milhões" : 4.2
+    "Categoria B: R$ 108,9 milhões" : 13.1
+    "Categoria C: R$ 686,7 milhões" : 82.7
 ```
 
-## 3. Análise de Oportunidades
+## 3. Análise das Oportunidades Categoria A
 
-### 3.1 Metodologia de Pontuação
-
-Nossa análise classificou cada oportunidade potencial com base em múltiplos fatores:
-- Tamanho potencial do contrato
-- Maturidade digital
-- Acessibilidade das partes interessadas
-- Compatibilidade com nossas soluções
-- Timing para tomada de decisão
-
-O resultado é uma pontuação de oportunidade de 0-100 e uma classificação em categorias A, B e C por prioridade.
-
-### 3.2 Distribuição de Oportunidades
+### 3.1 Distribuição por Segmento
 
 ```mermaid
-graph TD
-    subgraph Categorias de Prioridade
-    A[Total de Oportunidades: 62]
-    A --> B[Categoria A: 28]
-    A --> C[Categoria B: 19]
-    A --> D[Categoria C: 15]
-    end
-    
-    subgraph Timeline para Abordagem
-    B --> E[Imediato: 14]
-    B --> F[6-12 meses: 9]
-    B --> G[12-18 meses: 5]
-    
-    C --> H[Imediato: 4]
-    C --> I[6-12 meses: 8]
-    C --> J[12-18 meses: 7]
-    
-    D --> K[Imediato: 2]
-    D --> L[6-12 meses: 5]
-    D --> M[12-18 meses: 8]
-    end
+pie
+   
+    "Drilling (8)" : 8
+    "Upstream E&P (8)" : 8
+    "Offshore Vessels (4)" : 4
+    "FPSO Operator (2)" : 2
+    "Midstream LNG (2)" : 2
+    "Oilfield Services (2)" : 2
+    "Integrated (1)" : 1
+    "Downstream Refining (1)" : 1
 ```
 
-### 3.3 Análise por Segmento
+### 3.2 Potencial de Receita Recorrente Anual por Segmento (Categoria A)
 
-A tabela abaixo representa o número de oportunidades identificadas por segmento e categoria:
+| Segmento | # Oportunidades | Potencial Conservador (R$) | Potencial Otimista (R$) |
+|----------|-----------------|----------------------------|-------------------------|
+| Drilling | 8 | 9.900.000 | 24.300.000 |
+| Upstream (E&P) | 8 | 8.550.000 | 20.250.000 |
+| FPSO Operator | 2 | 4.500.000 | 9.000.000 |
+| Integrated | 1 | 4.500.000 | 9.000.000 |
+| Offshore Vessels | 4 | 3.150.000 | 9.450.000 |
+| Oilfield Services | 2 | 2.700.000 | 6.300.000 |
+| Midstream (LNG) | 2 | 1.800.000 | 5.400.000 |
+| Downstream (Refining) | 1 | 450.000 | 1.350.000 |
+| **Total** | **28** | **35.550.000** | **85.050.000** |
 
-| Segmento | Cat. A | Cat. B | Cat. C | Total | Valor Potencial (R$ M) |
-|----------|--------|--------|--------|-------|------------------------|
-| Perfuração | 8 | 6 | 3 | 17 | 10,5 |
-| FPSO | 7 | 5 | 4 | 16 | 22,4 |
-| E&P | 9 | 3 | 5 | 17 | 15,8 |
-| Refino | 4 | 5 | 3 | 12 | 18,2 |
-| Supply Boats | 3 | 2 | 2 | 7 | 8,5 |
-| **Total** | **31** | **21** | **17** | **69** | **75,4** |
+```mermaid
+graph LR
+    A((Categoria A<br>R$ 35,5M<br>Conservador)) --> B[Drilling<br>R$ 9,9M]
+    A --> C[Upstream E&P<br>R$ 8,5M]
+    A --> D[FPSO<br>R$ 4,5M]
+    A --> E[Integrated<br>R$ 4,5M]
+    A --> F[Offshore Vessels<br>R$ 3,1M]
+    A --> G[Oilfield Services<br>R$ 2,7M]
+    A --> H[Midstream LNG<br>R$ 1,8M]
+    A --> I[Downstream<br>R$ 0,4M]
+```
 
-**Nota:** Os valores potenciais representam uma estimativa extremamente conservadora, considerando apenas implementações iniciais limitadas (ex: apenas 1 FPSO de um universo de 7 para uma única empresa).
+## 4. Análise Detalhada por Segmento Prioritário
 
-## 4. Análise por Segmento
+### 4.1 Drilling (Força Principal da WDL)
+**Total de Oportunidades:** 29 (8 categoria A, 6 categoria B, 15 categoria C)
+**Potencial de Receita Recorrente Anual (Categoria A):**
+- Conservador: R$ 9,9 milhões
+- Otimista: R$ 24,3 milhões
 
-### 4.1 Perfuração (Força da WDL)
+**Potencial Total do Segmento:**
+- Conservador: R$ 41,85 milhões
+- Otimista: R$ 94,05 milhões
 
-O segmento de perfuração representa nossa maior vantagem competitiva devido à extensa experiência da equipe fundadora na Valaris. Identificamos 17 oportunidades neste segmento, com 8 classificadas como categoria A.
+**Proposta de Valor Principal:**
+- Wonder Wise: Plataforma de transferência de conhecimento para equipes de perfuração
+- Wonder Sentinel: Prevenção de falhas em equipamentos críticos de perfuração
 
-**Principais insights:**
-- Menor maturidade digital = menos concorrência e maior necessidade
-- Conhecimento específico da equipe fundadora é altamente valorizado
-- Ciclos de decisão mais longos, mas maior fidelidade após implementação
-- Valor de contrato médio: R$ 620k
-- **Oportunidade Estratégica:** Wise está sendo avaliado pela Petrobras como plataforma padrão de compartilhamento de conhecimento, com potencial de se tornar obrigatório para contratados de perfuração
+**Avanço Estratégico:** O Wise está sendo avaliado pela Petrobras como plataforma oficial de compartilhamento de conhecimento, com potencial de se tornar obrigatório para contratados de perfuração.
 
-**Desafios específicos:**
-- Menor orçamento para tecnologia comparado a outros segmentos
-- Maior resistência à mudança cultural
-- Requisitos de segurança mais rigorosos
+### 4.2 Upstream (E&P)
+**Total de Oportunidades:** 122 (8 categoria A, 39 categoria B, 75 categoria C)
+**Potencial de Receita Recorrente Anual (Categoria A):**
+- Conservador: R$ 8,55 milhões
+- Otimista: R$ 20,25 milhões
 
-### 4.2 FPSO
+**Potencial Total do Segmento:**
+- Conservador: R$ 189,45 milhões
+- Otimista: R$ 421,65 milhões
 
-O segmento de FPSO representa a maior oportunidade em termos de valor de contrato, com 16 oportunidades identificadas e valor potencial de R$ 22,4 milhões.
+**Proposta de Valor Principal:**
+- Wonder Sentinel: Monitoramento em tempo real de equipamentos críticos com redução de 40% em tempo de inatividade
+- Wonder Wise: Preservação de conhecimento crítico de operações
 
-**Principais insights:**
-- Maturidade digital média-alta = casos de uso bem definidos
-- Desafios críticos em monitoramento de equipamentos e otimização
-- Alto potencial para expansão dentro da mesma empresa
-- Valor de contrato médio: R$ 1,4M
-- **Avanço Institucional:** Sentinel tornou-se a plataforma de escolha para FPSOs no Brasil e está na fase final de seleção pela ANP
+**Avanço Estratégico:** Sistema Wonder Sentinel sendo avaliado pela ANP como plataforma de referência.
 
-**Desafios específicos:**
-- Maior concorrência de soluções específicas
-- Processos de compra mais complexos
-- Necessidade de integração com sistemas existentes
+### 4.3 FPSO Operator
+**Total de Oportunidades:** 10 (2 categoria A, 2 categoria B, 6 categoria C)
+**Potencial de Receita Recorrente Anual (Categoria A):**
+- Conservador: R$ 4,5 milhões
+- Otimista: R$ 9 milhões
 
-### 4.3 Embarcações de Apoio (Supply Boats)
+**Potencial Total do Segmento:**
+- Conservador: R$ 19,8 milhões
+- Otimista: R$ 40,5 milhões
 
-O segmento de embarcações de apoio representa uma oportunidade de crescimento com efeito de rede significativo:
+**Proposta de Valor Principal:**
+- Wonder Sentinel: Monitoramento em tempo real e otimização de processos críticos
+- Wonder Wise: Gestão de conhecimento para operações complexas
 
-**Principais insights:**
-- Nova estratégia de precificação por embarcação (especialmente para Wise)
-- Capacidade de operação em edge computing cria forte diferencial
-- Orçamentos descentralizados facilitam decisões de compra
-- Empresas com grandes frotas (como CBO com 44 embarcações) podem gerar contas maiores que empresas de E&P
-- Valor médio por embarcação: R$ 45-60k/ano
+**Avanço Estratégico:** Sentinel tornou-se a plataforma de escolha para FPSOs no Brasil e está na fase final de seleção pela ANP.
 
-**Estratégia específica:**
-- Abordagem por frota em vez de projetos individuais
-- Implementação faseada para demonstrar valor rapidamente
-- Foco em eficiência operacional e redução de combustível como ROI principal
+### 4.4 Offshore Vessels
+**Total de Oportunidades:** 20 (4 categoria A, 13 categoria B, 3 categoria C)
+**Potencial de Receita Recorrente Anual (Categoria A):**
+- Conservador: R$ 3,15 milhões
+- Otimista: R$ 9,45 milhões
 
-### 4.4 E&P e Refino
+**Potencial Total do Segmento:**
+- Conservador: R$ 19,8 milhões
+- Otimista: R$ 54 milhões
 
-Os segmentos de E&P e refino apresentam alto valor potencial e diferentes níveis de maturidade digital:
+**Proposta de Valor Principal:**
+- Modelo de negócio por embarcação
+- Capacidade de operação em edge
+- Redução de consumo de combustível e otimização de manutenção
 
-**E&P:**
-- 9 oportunidades categoria A
-- Forte necessidade de monitoramento em tempo real
-- Valor médio de contrato: R$ 930k
+**Vantagem Estratégica:** Nossa capacidade de operação em edge computing e o modelo de precificação por embarcação criam um forte diferencial, permitindo que cada contrato gere receitas significativas pelo efeito de frota.
 
-**Refino:**
-- Maior maturidade digital do setor
-- Orçamentos mais significativos para transformação digital
-- 4 oportunidades categoria A com valor médio de R$ 1,5M
-- **Avanço Institucional:** Sentinel tornou-se a plataforma de escolha para refinarias no Brasil e está na fase final de seleção pela ANP
-
-## 5. Estratégia de Go-to-Market
+## 5. Estratégia de Go-to-Market e Projeções
 
 ### 5.1 Abordagem de Vendas Direta
 
-Com base na análise e no feedback do VC, focaremos em vendas diretas em vez de parcerias com consultorias:
+Nossa estratégia de vendas se concentrará em converter as 28 oportunidades de categoria A, com abordagem personalizada por segmento:
 
 ```mermaid
 flowchart TD
-    A[Identificação de Oportunidades] --> B[Categorização A/B/C]
-    B --> C{Categoria A?}
-    C -->|Sim| D[Abordagem Imediata]
-    C -->|Não| E{Categoria B?}
-    E -->|Sim| F[Abordagem em 6-12 meses]
-    E -->|Não| G[Abordagem em 12-18 meses]
-    D --> H[Engajamento C-Level]
-    D --> I[Proposta de Valor Personalizada]
-    D --> J[Demonstração Técnica]
-    D --> K[Prova de Conceito]
-    D --> L[Implementação]
+    A[Priorização de 28 Oportunidades Cat. A] --> B[Segmentação por Vertical]
+    B --> C[Drilling<br>8 oportunidades<br>R$ 9,9M]
+    B --> D[Upstream<br>8 oportunidades<br>R$ 8,5M]
+    B --> E[FPSO<br>2 oportunidades<br>R$ 4,5M]
+    B --> F[Outros Segmentos<br>10 oportunidades<br>R$ 12,6M]
+    
+    C --> G[Abordagem 1: Parceria Petrobras]
+    D --> H[Abordagem 2: Cases Diretos de ROI]
+    E --> I[Abordagem 3: Alavancagem ANP]
+    F --> J[Abordagem 4: Personalizada por Segmento]
+    
+    G --> K[Ciclo de Vendas<br>6-9 meses]
+    H --> K
+    I --> K
+    J --> K
+    
+    K --> L[Meta: Conversão de 20%<br>5-6 novos contratos<br>R$ 7-10M]
 ```
 
-
-### 5.2 Ciclo de Vendas e Conversão
-
-Considerando nosso ciclo de vendas típico de 6 meses e métricas de conversão realistas para soluções enterprise:
+### 5.2 Ciclo de Vendas e Projeção de Conversão
 
 | Estágio | Número de Oportunidades | Taxa de Conversão | Próximo Estágio |
 |---------|-------------------------|-------------------|-----------------|
-| Oportunidades Identificadas (Cat. A) | 28 | 70% | 20 |
-| Reunião Inicial | 20 | 80% | 16 |
-| Demonstração Técnica | 16 | 60% | 10 |
-| Prova de Conceito | 10 | 100% | 10 |
-| Proposta/Negociação | 10 | 80% | 8 |
-| Fechamento | 8 | 100% | 8 |
+| Oportunidades Identificadas (Cat. A) | 28 | 50% | 14 |
+| Reunião Inicial | 14 | 70% | 10 |
+| Demonstração Técnica | 10 | 60% | 6 |
+| Prova de Conceito | 6 | 85% | 5 |
+| Proposta/Negociação | 5 | 90% | 4-5 |
+| Fechamento | 4-5 | 100% | 4-5 |
+
+**Projeção de Receita (Próximos 12 meses):**
+- Valor médio por contrato: R$ 1,5-2M (baseado no potencial médio das oportunidades cat. A)
+- Total com 4-5 contratos: R$ 7-10M
+- % do mercado TAM: Apenas 0,8-1,2% do potencial conservador total
+
+### 5.3 Projeção Trimestral
+
+| Trimestre | Pipeline Ativo | Novos Contratos | Receita Incremental (R$) |
+|-----------|----------------|-----------------|--------------------------|
+| Q1 2025 | 14 | 0-1 | 0-2M |
+| Q2 2025 | 10 | 1-2 | 1,5-4M |
+| Q3 2025 | 7 | 1-2 | 1,5-4M |
+| Q4 2025 | 5 | 2 | 4M |
+| **Total 12 meses** | **-** | **4-5** | **7-10M** |
 
 ## 6. Plano de Ação para 12 Meses
 
-### 6.1 Objetivos Principais
+### 6.1 Metas de Receita por Segmento
 
-1. **Objetivo de Receita:** R$ 5,5-10,5 milhões em novos contratos de O&G
-2. **Novos Clientes:** 6-10 novos clientes enterprise no setor de O&G
-3. **Conversão de Pipeline:** 40-50% das oportunidades categoria A em clientes pagantes
-4. **Avanços Institucionais:** Finalizar processo com ANP e Petrobras para formalização como plataformas recomendadas
+| Segmento | Meta 12 Meses (R$) | % do Potencial Cat. A | # Contratos Projetados |
+|----------|---------------------|----------------------|------------------------|
+| Drilling | 2,5-3,0M | 25-30% | 1-2 |
+| Upstream (E&P) | 2,0-2,5M | 23-29% | 1 |
+| FPSO | 1,5-2,0M | 33-44% | 1 |
+| Outros Segmentos | 1,0-2,5M | 8-20% | 1-2 |
+| **Total** | **7-10M** | **20-28%** | **4-5** |
 
-
-### 6.2 Cronograma de Atividades
+### 6.2 Cronograma de Execução
 
 ```mermaid
 gantt
     title Cronograma de Execução - Próximos 12 Meses
     dateFormat  MM/YYYY
     
+    section Avanços Institucionais
+    Finalização Processo ANP              :done, anp1, 01/2025, 3M
+    Processos Petrobras Wise              :petro1, 02/2025, 5M
+    
     section Desenvolvimento
-    Customização para Perfuração         :done, des1, 01/2025, 3M
-    Modo Edge para Supply Boats          :des4, 02/2025, 4M
-    Desenvolvimento FPSO                  :des2, 03/2025, 4M
-    Melhorias para E&P                    :des3, 07/2025, 5M
+    Customização para Drilling            :done, dev1, 01/2025, 3M
+    Modo Edge para Vessels                :dev2, 02/2025, 4M
+    Otimizações para FPSO                 :dev3, 03/2025, 4M
+    Melhorias para E&P                    :dev4, 06/2025, 6M
     
-    section Vendas
-    Priorização Cat. A Imediato           :done, sales1, 01/2025, 1M
-    Abordagem Cat. A Imediato             :sales2, 01/2025, 6M
-    Abordagem Cat. A (6-12 meses)         :sales3, 07/2025, 6M
+    section Vendas Categoria A
+    Abordagem Drilling (8)                :sales1, 01/2025, 6M
+    Abordagem E&P (8)                     :sales2, 02/2025, 6M
+    Abordagem FPSO (2)                    :sales3, 01/2025, 5M
+    Abordagem Outros (10)                 :sales4, 03/2025, 9M
     
-    section Marketing
-    Conteúdo para Perfuração              :done, mkt1, 01/2025, 2M
-    Eventos Setoriais                      :mkt2, 03/2025, 3M
-    Casos de Uso FPSO                      :mkt3, 05/2025, 3M
-    Webinars E&P                           :mkt4, 08/2025, 4M
-    
-    section Parcerias Estratégicas
-    Finalização Processo ANP              :part1, 01/2025, 3M
-    Processos Petrobras Wise              :part2, 02/2025, 5M
+    section Marketing/Eventos
+    Rio Oil & Gas 2025                    :mkt1, 01/2025, 2M
+    OTC Houston                           :mkt2, 03/2025, 2M
+    Webinars Segmentados                  :mkt3, 01/2025, 12M
+    Publicação Case ANP                   :mkt4, 04/2025, 2M
 ```
 
-## 7. Conclusão e Próximos Passos
+## 7. Conclusão e Potencial de Expansão
 
-A Wonder DataLabs possui uma oportunidade significativa no setor de O&G, especialmente nas áreas onde temos vantagem competitiva clara. A estratégia de vendas diretas, com foco nas oportunidades de categoria A, proporcionará o crescimento exponencial desejado.
+Nossa análise detalhada revela que a Wonder DataLabs está posicionada para capturar uma fatia significativa de um mercado massivo de R$ 831,1 milhões (conservador) a R$ 1,77 bilhão (otimista), valores estes recorrentes e anuais. A estratégia de focar inicialmente nas 28 oportunidades categoria A permitirá alcançar receita incremental de R$ 7-10 milhões recorrentes nos próximos 12 meses, representando apenas 0,8-1,2% do mercado potencial total.
 
-Os avanços institucionais com a ANP e Petrobras posicionam a empresa para uma expansão potencialmente muito maior que as projeções conservadoras apresentadas neste relatório. Adicionalmente, o novo modelo de negócios para embarcações de apoio cria uma oportunidade de efeito de rede significativo.
+**Fatores de Aceleração de Crescimento:**
 
-**Próximas ações imediatas:**
+1. **Efeito ANP/Petrobras:** A aprovação formal como plataforma recomendada pode transformar drasticamente nossa taxa de conversão, potencialmente multiplicando por 2-3x nossa projeção de receita.
 
-1. Refinamento da estratégia de abordagem para oportunidades categoria A com timeline imediato
-2. Desenvolvimento de materiais de vendas específicos para o segmento de perfuração
-3. Estruturação da equipe de vendas diretas com especialização em O&G
-4. Implementação de sistema de tracking para monitoramento do pipeline
-5. Aceleração dos processos com ANP e Petrobras para formalização dos acordos institucionais
+2. **Expansão para Categoria B:** Após estabelecer presença forte com clientes categoria A, a expansão para as 103 oportunidades categoria B (R$ 108,9 milhões potenciais) representa o próximo horizonte de crescimento.
 
-Essa abordagem focada nos permitirá capitalizar nossa vantagem competitiva no setor de O&G e alcançar um crescimento significativo nos próximos 12 meses, construindo a base para expansão futura em outros segmentos.
+3. **Efeito de Rede:** Particularmente nos segmentos de FPSO e Offshore Vessels, cada implementação bem-sucedida pode levar a múltiplas expansões dentro da mesma empresa.
+
+Esta estratégia focada nos permitirá capitalizar nossa vantagem competitiva no setor de O&G e atingir um crescimento exponencial nos próximos anos, criando uma base sólida para expansão futura que poderá atingir dezenas ou centenas de milhões em receita recorrente anual.
 
 ---
 
@@ -278,10 +265,10 @@ Essa abordagem focada nos permitirá capitalizar nossa vantagem competitiva no s
 
 [²] Taxas de conversão baseadas em benchmarks do setor para software B2B enterprise, ajustadas para o ciclo de vendas típico de soluções industriais. Fonte: Forrester Research "B2B Sales Benchmark Report 2023"
 
-[³] Análise de mercado de O&G baseada em dados da ANP, IBP e relatórios setoriais da McKinsey & Company "Digital Transformation in Oil and Gas" (2023)
+[³] Plano Estratégico Petrobras 2024-2028, divulgado em novembro de 2023.
 
-[⁴] Tamanho de mercado e potencial de crescimento baseados em relatório da Statista "Digital Transformation in Oil & Gas Market Size" (2023)
+[⁴] Análise baseada em relatório da McKinsey & Company "Digital Transformation in Oil and Gas" (2023) e IEA "Digitalization and Energy" (2023).
 
-[⁵] Dados sobre maturidade digital por segmento baseados em pesquisa da Accenture "Digital Adoption in Energy Sector" (2022)
+[⁵] Dados sobre maturidade digital por segmento baseados em pesquisa da Accenture "Digital Adoption in Energy Sector" (2022).
 
 *Este relatório foi preparado pela Wonder DataLabs com base em análise de dados proprietária e pesquisa de mercado. Os números apresentados representam nossas melhores estimativas com base em informações disponíveis e histórico de vendas.*
