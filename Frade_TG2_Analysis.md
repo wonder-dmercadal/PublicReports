@@ -3,29 +3,9 @@
 
 ---
 
-## Sumário Executivo
+## 1. Metodologia e Base de Dados
 
-Este relatório apresenta uma análise técnica aprofundada do TurboGerador 2 (TG2) da FPSO Frade, com foco principal nos sinais que indicam problemas nas pás da turbina, conforme reportado pelos operadores. A análise de dados dos últimos 60 dias revela não apenas a progressão de problemas relacionados às pás, mas também outros padrões que merecem atenção durante a próxima parada de manutenção programada.
-
-Nossa plataforma de monitoramento identificou com antecedência uma tendência consistente de aumento nas vibrações, alterações significativas nas temperaturas operacionais e múltiplos desvios em parâmetros-chave que não apenas corroboram as preocupações com as pás, mas também indicam potenciais problemas adicionais no sistema de lubrificação e mancais. A detecção precoce destes sinais permitiu decisões operacionais proativas, como demonstra a redução recente nas horas de operação do TG2.
-
-Este caso demonstra o valor da análise avançada de dados para identificação de problemas mecânicos complexos antes que atinjam níveis críticos, otimizando a programação de manutenções e maximizando a disponibilidade dos equipamentos.
-
----
-
-## 1. Introdução
-
-O TurboGerador 2 (TG2) é componente crítico na infraestrutura energética da FPSO Frade, responsável por significativa parcela da geração de energia da plataforma. O monitoramento contínuo deste equipamento é essencial para garantir a continuidade operacional e prevenir falhas que poderiam resultar em perdas de produção.
-
-Recentemente, os operadores reportaram preocupações específicas relacionadas às pás da turbina do TG2. Nossa equipe realizou uma análise aprofundada dos dados operacionais coletados nos últimos 60 dias para investigar não apenas estas preocupações, mas também identificar outros padrões que possam exigir atenção durante a próxima parada de manutenção.
-
-Este relatório apresenta os resultados desta análise, demonstrando como nossa plataforma de monitoramento preditivo foi capaz de detectar precocemente múltiplos sinais indicativos de problemas potenciais, permitindo planejamento adequado das atividades de manutenção.
-
----
-
-## 2. Metodologia e Base de Dados
-
-### 2.1 Fonte de Dados
+### 1.1 Fonte de Dados
 
 A análise foi realizada utilizando:
 - Registros operacionais de alta frequência do período de 24/02/2025 a 24/03/2025
@@ -33,7 +13,7 @@ A análise foi realizada utilizando:
 - Registros de anomalias detectadas pelos algoritmos de monitoramento
 - Histórico completo de parâmetros críticos dos três turbogeradores (TG1, TG2 e TG4)
 
-### 2.2 Parâmetros Analisados
+### 1.2 Parâmetros Analisados
 
 A análise foi abrangente, incluindo diversos sistemas do TG2:
 
@@ -48,9 +28,9 @@ A análise foi abrangente, incluindo diversos sistemas do TG2:
 
 ---
 
-## 3. Análise do Problema Principal: Pás da Turbina
+## 2. Análise do Problema Principal: Pás da Turbina
 
-### 3.1 Padrão de Utilização e Carga
+### 2.1 Padrão de Utilização e Carga
 
 **Tabela 1: Evolução das Horas de Operação (últimos 60 dias)**
 
@@ -79,9 +59,9 @@ graph TD
 ```
 
 **Insight Preditivo:**
-Nossa plataforma identificou a transição no perfil operacional do TG2 - de unidade principal para papel secundário - correlacionando-a com o aumento nas vibrações e temperaturas. Esta mudança operacional provavelmente representa uma decisão baseada nos primeiros sinais de deterioração, evidenciando o valor da detecção precoce de problemas.
+O Sentinel identificou a transição no perfil operacional do TG2 - de unidade principal para papel secundário - correlacionando-a com o aumento nas vibrações e temperaturas. Esta mudança operacional provavelmente representa uma decisão baseada nos primeiros sinais de deterioração, evidenciando o valor da detecção precoce de problemas.
 
-### 3.2 Evolução das Vibrações
+### 2.2 Evolução das Vibrações
 
 **Tabela 2: Tendência de Vibração do Rotor da Turbina**
 
@@ -114,7 +94,7 @@ graph TD
 **Insight Preditivo:**
 A análise revela um padrão bifásico - aumento abrupto inicial seguido de crescimento contínuo mais gradual. Este comportamento típico de falhas progressivas em pás de turbina foi detectado com aproximadamente 30 dias de antecedência da parada programada. A taxa de crescimento indica que, sem intervenção, o limite de alarme seria atingido em aproximadamente 7-8 semanas.
 
-### 3.3 Padrão Térmico Anômalo
+### 2.3 Padrão Térmico Anômalo
 
 **Tabela 3: Temperatura de Entrada na Turbina (°C) - Comparação entre TGs**
 
@@ -139,7 +119,7 @@ graph LR
 **Insight Preditivo:**
 O padrão de inversão térmica detectado é particularmente revelador - o TG2 iniciou com temperatura inferior aos outros TGs e rapidamente excedeu-os, mantendo-se consistentemente mais quente apesar da redução operacional. Este padrão é altamente indicativo de problemas de eficiência térmica, tipicamente associados a danos nas pás ou depósitos que alteram o perfil aerodinâmico.
 
-### 3.4 Correlação Entre Anomalias e Tendências Operacionais
+### 2.4 Correlação Entre Anomalias e Tendências Operacionais
 
 **Tabela 4: Anomalias Detectadas vs. Parâmetros Operacionais**
 
@@ -163,15 +143,15 @@ graph TD
 ```
 
 **Insight Preditivo:**
-Nossa plataforma identificou um padrão contraintuitivo - enquanto as anomalias detectadas diminuíram, as vibrações continuaram aumentando. A ausência de detecção de anomalias nas semanas mais recentes não indica resolução do problema, mas sim sua evolução para um estado persistente que os algoritmos de detecção de anomalias não classificam mais como eventos isolados. Este padrão é típico de degradação progressiva, onde um problema se torna o "novo normal" para o sistema.
+O Sentinel identificou um padrão contraintuitivo - enquanto as anomalias detectadas diminuíram, as vibrações continuaram aumentando. A ausência de detecção de anomalias nas semanas mais recentes não indica resolução do problema, mas sim sua evolução para um estado persistente que os algoritmos de detecção de anomalias não classificam mais como eventos isolados. Este padrão é típico de degradação progressiva, onde um problema se torna o "novo normal" para o sistema.
 
 ---
 
-## 4. Outros Padrões Relevantes Identificados
+## 3. Outros Padrões Relevantes Identificados
 
 Além dos problemas nas pás da turbina, nossa análise identificou outros padrões que merecem atenção durante a próxima parada de manutenção:
 
-### 4.1 Anomalias no Sistema de Lubrificação
+### 3.1 Anomalias no Sistema de Lubrificação
 
 ```mermaid
 graph TD
@@ -192,7 +172,7 @@ graph TD
 - No relatório de 03/03/2025 foi notado: *"Esta diferença de quase 20°C entre lados do mesmo mancal é incomum e pode indicar problema de lubrificação, desalinhamento ou leitura incorreta."*
 - Nossa análise sugere que, além da possível falha de sensor, podem existir problemas reais no fluxo de óleo lubrificante, potencialmente afetando a integridade dos mancais a longo prazo
 
-### 4.2 Assimetria Persistente nas Vibrações dos Mancais
+### 3.2 Assimetria Persistente nas Vibrações dos Mancais
 
 **Tabela 5: Assimetria nas Vibrações dos Mancais de Alta Velocidade**
 
@@ -224,7 +204,7 @@ graph TD
 **Insight Preditivo:**
 A assimetria direcional nas vibrações dos mancais (razão Y/X ~2) é um indicador significativo não apenas de problemas nas pás, mas também de potencial desalinhamento nos mancais. Nossa análise indica que este padrão se estabilizou em um novo patamar, sugerindo que o sistema encontrou uma condição de "equilíbrio dinâmico" com o problema. Esta estabilização não significa resolução, mas adaptação temporária que pode mascarar deterioração progressiva.
 
-### 4.3 Comportamento Atípico do Sistema de Combustível
+### 3.3 Comportamento Atípico do Sistema de Combustível
 
 **Tabela 6: Tendência da Pressão de Fornecimento de Combustível Líquido**
 
@@ -260,7 +240,7 @@ Nossa análise identificou um padrão particularmente revelador no sistema de co
 
 ---
 
-## 5. Análise Integrada dos Padrões Identificados
+## 4. Análise Integrada dos Padrões Identificados
 
 A análise combinada dos múltiplos padrões identificados revela um quadro de deterioração progressiva em diferentes subsistemas do TG2, com interrelações importantes:
 
@@ -286,11 +266,11 @@ graph TD
 ```
 
 **Insight Integrado:**
-Nossa plataforma identificou um ciclo de retroalimentação negativa, onde os problemas nas pás geram vibrações e redução de eficiência térmica, que por sua vez agravam o desgaste das pás. Simultaneamente, anomalias no sistema de lubrificação e combustível contribuem para este ciclo, criando um cenário de deterioração acelerada se não houver intervenção. A detecção precoce destes padrões interrelacionados permite uma abordagem integrada de manutenção, tratando não apenas os sintomas (vibrações e temperaturas), mas também as possíveis causas-raiz.
+O Sentinel identificou um ciclo de retroalimentação negativa, onde os problemas nas pás geram vibrações e redução de eficiência térmica, que por sua vez agravam o desgaste das pás. Simultaneamente, anomalias no sistema de lubrificação e combustível contribuem para este ciclo, criando um cenário de deterioração acelerada se não houver intervenção. A detecção precoce destes padrões interrelacionados permite uma abordagem integrada de manutenção, tratando não apenas os sintomas (vibrações e temperaturas), mas também as possíveis causas-raiz.
 
 ---
 
-## 6. Linha do Tempo e Evolução dos Padrões Identificados
+## 5. Linha do Tempo e Evolução dos Padrões Identificados
 
 **Tabela 7: Cronologia de Sinais e Indicadores Relevantes**
 
@@ -331,9 +311,9 @@ A análise cronológica revela uma sequência clássica de degradação: sinais 
 
 ---
 
-## 7. O Poder da Detecção Precoce: Valor Demonstrado
+## 6. O Poder da Detecção Precoce: Valor Demonstrado
 
-### 7.1 Identificação de Sinais com 30 Dias de Antecedência
+### 6.1 Identificação de Sinais com 30 Dias de Antecedência
 
 ```mermaid
 graph TD
@@ -356,14 +336,14 @@ graph TD
 ```
 
 **Valor Demonstrado:**
-Nossa plataforma identificou os primeiros sinais do problema aproximadamente 42 dias antes da parada programada, permitindo:
+O Sentinel identificou os primeiros sinais do problema aproximadamente 42 dias antes da parada programada, permitindo:
 
 1. **Planejamento Otimizado**: Tempo suficiente para planejamento detalhado da manutenção
 2. **Gestão de Recursos**: Preparação antecipada de peças, ferramentas e pessoal especializado
 3. **Mitigação de Riscos**: Redução gradual na operação do TG2 para prevenir danos mais extensos
 4. **Prevenção de Paradas Não Programadas**: Evitando custos estimados de US$ 150-200 mil/dia
 
-### 7.2 Detecção de Problemas Interrelacionados
+### 6.2 Detecção de Problemas Interrelacionados
 
 Nossa análise preditiva identificou não apenas o problema nas pás da turbina reportado pelos operadores, mas também:
 
@@ -373,13 +353,13 @@ Nossa análise preditiva identificou não apenas o problema nas pás da turbina 
 
 Estes achados adicionais permitem uma abordagem abrangente durante a parada de manutenção, maximizando sua eficácia e evitando intervenções adicionais no futuro próximo.
 
-### 7.3 Antecipação da Evolução do Problema
+### 6.3 Antecipação da Evolução do Problema
 
 ```mermaid
 graph LR
     subgraph "Valor da Detecção Precoce"
     A["Sem Monitoramento Preditivo:<br>Falha Potencial em 7-8 Semanas<br>Parada Não Programada<br>Danos Extensos"]
-    B["Com Nossa Plataforma:<br>Detecção em 30+ Dias<br>Mitigação Operacional<br>Manutenção Planejada"]
+    B["Com O Sentinel:<br>Detecção em 30+ Dias<br>Mitigação Operacional<br>Manutenção Planejada"]
     end
     
     classDef failure fill:#ffcccc,stroke:#cc0000,stroke-width:2px
@@ -402,9 +382,9 @@ A detecção precoce permitiu intervenções operacionais que reduziram a carga 
 
 ---
 
-## 8. Conclusões e Recomendações
+## 7. Conclusões e Recomendações
 
-### 8.1 Conclusões Principais
+### 7.1 Conclusões Principais
 
 1. **Múltiplos Sistemas Afetados**: Nossa análise identificou não apenas problemas nas pás da turbina, mas também anomalias interrelacionadas nos sistemas de lubrificação e combustível.
 
@@ -414,11 +394,11 @@ A detecção precoce permitiu intervenções operacionais que reduziram a carga 
    - Fase de estabilização aparente mascarando deterioração contínua
    - Adaptação operacional para mitigar riscos iminentes
 
-3. **Eficácia da Detecção Precoce**: Nossa plataforma detectou os primeiros sinais do problema aproximadamente 42 dias antes da parada programada, permitindo ações proativas e planejamento adequado.
+3. **Eficácia da Detecção Precoce**: O Sentinel detectou os primeiros sinais do problema aproximadamente 42 dias antes da parada programada, permitindo ações proativas e planejamento adequado.
 
 4. **Interrelação Entre Subsistemas**: Os problemas identificados apresentam correlações significativas, formando um ciclo de retroalimentação que acelera a degradação do equipamento.
 
-### 8.2 Recomendações para a Próxima Parada de Manutenção
+### 7.2 Recomendações para a Próxima Parada de Manutenção
 
 Baseado nos padrões identificados, recomendamos que a parada programada em duas semanas inclua as seguintes atividades:
 
@@ -442,24 +422,6 @@ Baseado nos padrões identificados, recomendamos que a parada programada em duas
 5. **Atualização dos Parâmetros de Monitoramento**:
    - Ajuste dos limites de alarme para detecção mais precoce de desvios similares no futuro
    - Implementação de monitoramento específico para os padrões identificados
-
----
-
-## 9. Demonstração do Valor da Plataforma de Monitoramento
-
-Este caso exemplifica o poder de nossa plataforma de monitoramento preditivo em:
-
-1. **Detectar Problemas Complexos**: Identificação de padrões sutis que indicam problemas antes que atinjam níveis críticos
-
-2. **Antecipar Falhas**: Previsão da evolução de problemas com tempo suficiente para planejamento e intervenção
-
-3. **Correlacionar Sistemas Interdependentes**: Análise das interrelações entre diferentes subsistemas, identificando causas-raiz
-
-4. **Otimizar Manutenções**: Fornecimento de informações detalhadas para planejamento de paradas, maximizando sua eficácia
-
-5. **Prevenir Perdas Significativas**: Evitando paradas não programadas e danos extensos aos equipamentos
-
-A análise contínua dos dados operacionais permitiu a identificação de padrões que, individualmente, poderiam parecer pouco significativos, mas que em conjunto formam um quadro claro de degradação progressiva. Este caso demonstra o valor transformador da detecção precoce e análise preditiva na operação de equipamentos críticos.
 
 ---
 
