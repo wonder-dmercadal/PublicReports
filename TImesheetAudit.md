@@ -1,7 +1,7 @@
 # Wonder Wise: Solução de Automação para Gestão de Timesheets
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Wonder-Data-Labs/wonder-wise-assets/main/logos/wdl_logo_full.png" alt="WDL Logo" width="250px"/>
+  <img src="https://wonderhublogos.s3.us-west-2.amazonaws.com/Wise+Ai+-+Logo-3.png" alt="WDL Logo" width="250px"/>
 </div>
 
 ## 🚀 Apresentação
@@ -197,5 +197,5 @@ Nossa solução de busca avançada permite segmentação e filtragem por múltip
 <div align="center">
   <h3>Simplifique seus processos industriais com Wonder Wise!</h3>
   <p><strong>Wonder Data Labs</strong> - Industrial AI, Simplified</p>
-  <img src="https://raw.githubusercontent.com/Wonder-Data-Labs/wonder-wise-assets/main/logos/wonder_wise_logo.png" alt="Wonder Wise Logo" width="200px"/>
+  <img src="https://wonderhublogos.s3.us-west-2.amazonaws.com/WDL+-+Logo-1.png" alt="Wonder Wise Logo" width="250px"/>
 </div>
