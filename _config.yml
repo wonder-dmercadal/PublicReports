@@ -1,6 +1,6 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: WDL Engineer Technical Overview
-description: Industrial Intelligence Platform for ExxonMobil
-show_downloads: false
-github:
-  is_project_page: false
+description: Industrial Intelligence Platform
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
