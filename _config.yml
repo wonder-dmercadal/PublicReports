@@ -1,6 +1,0 @@
-theme: jekyll-theme-minimal
-title: WDL Engineer Technical Overview
-description: Industrial Intelligence Platform
-plugins:
-  - jekyll-relative-links
-  - jekyll-seo-tag
