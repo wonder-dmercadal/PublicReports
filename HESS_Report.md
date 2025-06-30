@@ -262,6 +262,8 @@ As observed in the Portuguese technical discussion:
 
 ![Night Sample Filter Comparison](results/01-generic-optimized/night_sample/images/10_filter_comparison.png)
 
+![Day Sample Filter Comparison](results/01-generic-optimized/day_sample/images/10_filter_comparison.png)
+
 ---
 
 ## **6. AUTOMATED ANOMALY DETECTION FRAMEWORK**
