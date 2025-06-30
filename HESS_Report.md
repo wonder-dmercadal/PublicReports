@@ -513,7 +513,7 @@ flowchart LR
 
 ## **10. FUTURE DEVELOPMENT ROADMAP**
 
-### **10.1 Phase 1: Immediate Optimizations (0-3 months)**
+### **10.1 Phase 1: Immediate Optimizations (0-1 months)**
 
 1. **Algorithm Refinement:**
    - Implement adaptive noise cancellation for day/night
@@ -530,7 +530,7 @@ flowchart LR
    - Implement selective recording triggers
    - Reduce data transmission by 90%
 
-### **10.2 Phase 2: Scale Implementation (3-12 months)**
+### **10.2 Phase 2: Scale Implementation (1-3 months)**
 
 ```mermaid
 gantt
@@ -550,7 +550,7 @@ gantt
     Predictive Analytics      :2024-12-01, 365d
 ```
 
-### **10.3 Phase 3: Advanced Capabilities (12-24 months)**
+### **10.3 Phase 3: Advanced Capabilities (3-6 months)**
 
 1. **Machine Learning Integration:**
    - Train models on acoustic + SCADA + failure history
