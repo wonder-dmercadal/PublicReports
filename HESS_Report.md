@@ -324,8 +324,6 @@ flowchart TB
 - Harmonic confidence >60% (achieved 64%)
 - Global score >0.3 (achieved 0.319)
 
-![Night Sample Analysis Dashboard](results/01-generic-optimized/night_sample/images/06_analysis_dashboard.png)
-
 ---
 
 ## **7. DAY VS NIGHT OPERATIONAL INTELLIGENCE**
