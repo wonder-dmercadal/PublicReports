@@ -168,15 +168,15 @@ flowchart TD
 
 ```mermaid
 graph TB
-    A[Raw Audio Signal<br/>44.1kHz] --> B[Scale 1: Fine<br/>0.1s windows<br/>Transients]
+    A[Raw Audio Signal<br/>44.1kHz] --> B[Scale 1: Fine<br/>0.5s windows<br/>Transients]
     A --> C[Scale 2: Short<br/>1s windows<br/>Cycles]
-    A --> D[Scale 3: Medium<br/>10s windows<br/>Patterns]
-    A --> E[Scale 4: Long<br/>60s windows<br/>Trends]
+    A --> D[Scale 3: Medium<br/>100s windows<br/>Patterns]
+    A --> E[Scale 4: Long<br/>380s windows<br/>Trends]
     
-    B --> F[Event Detection]
-    C --> G[SPM Calculation]
-    D --> H[Operational State]
-    E --> I[Production Monitoring]
+    B --> F[Mechanical Shock Detection]
+    C --> G[Bearing Analysis]
+    D --> H[Gearbox State]
+    E --> I[SPM Validation]
     
     style A fill:#9cf,stroke:#333,stroke-width:2px
     F --> J[Integrated<br/>Intelligence]
@@ -188,31 +188,29 @@ graph TB
 
 **Technical Specifications:**
 
-1. **Scale 1 - Transient Analysis (0.1s):**
+1. **Scale 1 - Transient Analysis (0.5s):**
    - Window: 4,410 samples
    - Purpose: Impact detection, valve events
-   - Frequency Resolution: 10 Hz
+   - Frequency Resolution: >10 kHz
    - Application: Mechanical shock identification
 
 2. **Scale 2 - Cycle Analysis (1s):**
    - Window: 44,100 samples  
    - Purpose: Individual stroke characterization
-   - Frequency Resolution: 1 Hz
-   - Application: SPM validation, stroke irregularities
+   - Frequency Resolution: ~5 kHz
+   - Application: Bearing Analysis
 
-3. **Scale 3 - Pattern Analysis (10s):**
+3. **Scale 3 - Pattern Analysis (100s):**
    - Window: 441,000 samples
    - Purpose: Operational mode detection
-   - Frequency Resolution: 0.1 Hz
-   - Application: Production state classification
+   - Frequency Resolution: Between 100 and 1000 Hz
+   - Application: Gearbox Analysis
 
-4. **Scale 4 - Trend Analysis (60s):**
+4. **Scale 4 - Trend Analysis (380s):**
    - Window: 2,646,000 samples
    - Purpose: Long-term behavior monitoring
-   - Frequency Resolution: 0.017 Hz
-   - Application: Production optimization
-
-![Night Sample Spectrogram](results/01-generic-optimized/night_sample/images/04_spectrogram.png)
+   - Frequency Resolution: >10 Hz
+   - Application: Production Data (SPM Validation)
 
 ---
 
@@ -275,15 +273,15 @@ As observed in the Portuguese technical discussion:
 ```mermaid
 flowchart TB
     A[Continuous Audio Stream] --> B[9-Band Decomposition]
-    B --> C1[Ultra Low<br/>0-5 Hz<br/>80% Energy]
-    B --> C2[Very Low<br/>5-20 Hz<br/>20% Energy]
-    B --> C3[Low-Mid<br/>20-50 Hz<br/>Anomaly Band]
+    B --> C1[Ultra Low<br/>0-10 Hz<br/>80% Energy]
+    B --> C2[Very Low<br/>10-20 Hz<br/>20% Energy]
+    B --> C3[Low-Mid<br/>20-500 Hz<br/>Anomaly Band]
     B --> C4[Higher Bands<br/>>50 Hz<br/>Noise Detection]
     
     C1 --> D[Fundamental<br/>Tracking]
-    C2 --> E[Harmonic<br/>Validation]
+    C2 --> E[Machine<br/>Elements]
     C3 --> F[Anomaly<br/>Detection]
-    C4 --> G[Quality<br/>Metrics]
+    C4 --> G[HighFreq<br/>Anomalies]
     
     D --> H[Integrated<br/>Anomaly<br/>Score]
     E --> H
@@ -645,12 +643,12 @@ The successful demonstration of acoustic monitoring from MP4 security camera foo
 - **Global Score:** 0.319 (within 0.3-0.5 acceptable range)
 - **Classification:** ISO Level B (satisfactory for continued operation)
 
-![Night Sample Statistical Summary](results/01-generic-optimized/night_sample/images/12_summary_statistics.png)
+![Night Sample Statistical Summary](results/07_peak_quality.png)
 
 ---
 
-**Report Prepared By:** O&G Acoustic Analysis Expert  
-**Date:** December 2024  
+**Report Prepared By:** WDL  
+**Date:** June 2025  
 **Technical Confidence:** High (validated through field data and ISO standards)  
 **MP4 Viability Status:** Confirmed with documented limitations  
 **SCADA Integration Potential:** Exceptional (2-4x value multiplication)  
