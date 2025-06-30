@@ -491,11 +491,11 @@ flowchart LR
     B --> D[Software Solutions]
     B --> E[Hybrid Approaches]
     
-    C --> F[- Directional Mics<br/>- Multiple Cameras<br/>- Closer Positioning]
+    C --> F[Directional Mics<br/>Multiple Cameras<br/>Closer Positioning]
     
-    D --> G[- AI Source Separation<br/>- Advanced Filtering<br/>- Pattern Learning]
+    D --> G[AI Source Separation<br/>Advanced Filtering<br/>Pattern Learning]
     
-    E --> H[- Selective Monitoring<br/>- Triggered Recording<br/>- Edge Computing]
+    E --> H[Selective Monitoring<br/>Triggered Recording<br/>Edge Computing]
     
     style A fill:#f99,stroke:#333,stroke-width:2px
     style H fill:#9f9,stroke:#333,stroke-width:2px
