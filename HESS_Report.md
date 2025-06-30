@@ -1,3 +1,34 @@
+# **ROD PUMP ACOUSTIC MONITORING: MP4-BASED FEASIBILITY STUDY**
+## **Advanced Signal Processing & Operational Intelligence from Video-Derived Acoustic Data**
+
+---
+
+## **EXECUTIVE SUMMARY**
+
+This comprehensive study demonstrates the pioneering application of MP4 video-derived acoustic monitoring for rod pump (pumpjack) operational intelligence. Through advanced signal processing of >5 hours of acoustic data extracted from security camera footage, we successfully established a cost-effective monitoring methodology capable of detecting operational states, temporal patterns, and major mechanical events at 20-meter distances.
+
+**Core Finding:** MP4-derived acoustic monitoring at 44.1kHz sampling rate achieves 70-80% operational state detection reliability using fundamental frequency analysis (0-10Hz) with harmonic validation, demonstrating significant untapped potential when integrated with SCADA systems for predictive maintenance and production optimization.
+
+**Key Technical Achievement:** Successfully implemented ISO 10816-3 compliant analysis achieving Level B classification with 64% harmonic confidence and 3.9dB SNR in challenging field conditions.
+
+---
+
+## **TABLE OF CONTENTS**
+
+1. [Technical Methodology & Signal Processing Pipeline](#1-technical-methodology--signal-processing-pipeline)
+2. [Operational State Detection: Signatures & Thresholds](#2-operational-state-detection-signatures--thresholds)
+3. [Major Event Detection Methodology](#3-major-event-detection-methodology)
+4. [Multi-Scale Spectral Analysis Implementation](#4-multi-scale-spectral-analysis-implementation)
+5. [Advanced Signal Processing for Environmental Compensation](#5-advanced-signal-processing-for-environmental-compensation)
+6. [Automated Anomaly Detection Framework](#6-automated-anomaly-detection-framework)
+7. [Day vs Night Operational Intelligence](#7-day-vs-night-operational-intelligence)
+8. [SCADA Integration Potential & Digital Twin Development](#8-scada-integration-potential--digital-twin-development)
+9. [Technical Limitations & Enhancement Strategies](#9-technical-limitations--enhancement-strategies)
+10. [Future Development Roadmap](#10-future-development-roadmap)
+11. [Conclusions & Business Impact](#11-conclusions--business-impact)
+
+---
+
 ## **1. TECHNICAL METHODOLOGY & SIGNAL PROCESSING PIPELINE**
 
 ### **1.1 MP4 to Acoustic Intelligence Pipeline**
