@@ -62,7 +62,7 @@ graph LR
 4. **Harmonic Validation:** 4th & 5th harmonic identification
 5. **Quality Metrics:** SNR calculation and confidence scoring
 
-![Night Sample Waveform Analysis](results/01-generic-optimized/night_sample/images/01_waveform_analysis.png)
+![Night Sample Waveform Analysis](results/01-generic-optimized/night_sample/images/filter_comparison_analysis.png)
 
 ---
 
