@@ -62,7 +62,7 @@ graph LR
 4. **Harmonic Validation:** 4th & 5th harmonic identification
 5. **Quality Metrics:** SNR calculation and confidence scoring
 
-![Night Sample Waveform Analysis](results/01-generic-optimized/night_sample/images/filter_comparison_analysis.png)
+![Night Sample Waveform Analysis](results/filter_comparison_analysis.png)
 
 ---
 
@@ -117,7 +117,7 @@ graph TD
 
 **Example Comparison:**
 
-![Morning Sample Waveform Analysis](<results/01-generic-optimized/Morning Sample_00/images/01_waveform_analysis.png>)
+![Morning Sample Waveform Analysis](<results/filter_comparison_rms_analysis.png>)
 
 *Morning sample shows higher activity with crest factor of 71.72 vs night's 32.69, indicating more transient events that can mask steady-state signatures*
 
@@ -185,6 +185,10 @@ graph TB
     I --> J
     style J fill:#9f9,stroke:#333,stroke-width:2px
 ```
+
+![Morning Sample Waveform Analysis](<results/frequency_band_comprehensive_analysis.png>)
+
+---
 
 **Technical Specifications:**
 
@@ -260,9 +264,7 @@ As observed in the Portuguese technical discussion:
 - **Night:** Cleaner signal, better SNR
 - **Compensation Strategy:** Time-indexed noise profiles
 
-![Night Sample Filter Comparison](results/01-generic-optimized/night_sample/images/10_filter_comparison.png)
-
-![Day Sample Filter Comparison](results/01-generic-optimized/day_sample/images/10_filter_comparison.png)
+![Morning Sample Waveform Analysis](<results/spectral_comparison_analysis.png>))
 
 ---
 
@@ -361,15 +363,13 @@ graph TD
     style G fill:#f99,stroke:#333,stroke-width:2px
 ```
 
-**Technical Insights from Portuguese Analysis:**
+**Technical Insights:**
 - Morning recordings suffer from biological noise (animals)
 - Human activity (vehicles, maintenance) peaks during day
 - Night provides optimal acoustic conditions for analysis
 - Environmental compensation essential for 24/7 monitoring
 
-![Night Sample Envelope Activity](results/01-generic-optimized/night_sample/images/02_envelope_activity_analysis.png)
-
-![Morning Sample Envelope Activity](<results/01-generic-optimized/Morning Sample_00/images/02_envelope_activity_analysis.png>
+![Morning Sample Waveform Analysis](<results/frequency_band_quality_analysis.png>))
 
 ---
 
