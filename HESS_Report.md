@@ -369,7 +369,7 @@ graph TD
 - Night provides optimal acoustic conditions for analysis
 - Environmental compensation essential for 24/7 monitoring
 
-![Morning Sample Waveform Analysis](<results/frequency_band_quality_analysis.png>))
+![Morning Sample Waveform Analysis](<results/frequency_band_quality_analysis_new.png>))
 
 ---
 
