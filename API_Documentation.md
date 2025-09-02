@@ -474,9 +474,7 @@ curl -H "X-API-Key: sua-chave-aqui" \
 
 Para dúvidas sobre a API ou solicitação de acesso:
 
-- **Documentação:** https://docs.constellation-barriers.com
-- **Suporte Técnico:** suporte@constellation-barriers.com
-- **Status da API:** https://status.constellation-barriers.com
+- **Suporte Técnico:** contato@wonderdatalabs.com
 
 ---
 
