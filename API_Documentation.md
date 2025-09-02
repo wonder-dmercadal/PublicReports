@@ -6,7 +6,7 @@ A API REST do Sistema de Monitoramento de Barreiras Constellation fornece acesso
 
 ### URL Base
 ```
-https://api.constellation-barriers.com
+https://api.constellation-barriers.wonderdatalabs.com
 ```
 
 ### Características Principais
@@ -37,7 +37,7 @@ X-API-Key: sua-chave-de-api
 
 ```bash
 curl -H "X-API-Key: sua-chave-de-api" \
-     https://api.constellation-barriers.com/api/dashboard-summary
+     https://api.constellation-barriers.wonderdatalabs.com/api/dashboard-summary
 ```
 
 ### Códigos de Erro de Autenticação
@@ -322,7 +322,7 @@ Lista todos os sites monitorados pelo sistema.
 1. **Novo Dados Web**
    - Abrir PowerBI Desktop
    - Selecionar "Obter Dados" → "Web"
-   - URL: `https://api.constellation-barriers.com/api/dashboard-summary`
+   - URL: `https://api.constellation-barriers.wonderdatalabs.com/api/dashboard-summary`
 
 2. **Configurar Headers**
    - Clicar em "Avançado"
@@ -333,7 +333,7 @@ Lista todos os sites monitorados pelo sistema.
 ```m
 let
     Source = Web.Contents(
-        "https://api.constellation-barriers.com/api/dashboard-summary",
+        "https://api.constellation-barriers.wonderdatalabs.com/api/dashboard-summary",
         [Headers=[#"X-API-Key"="sua-chave-aqui"]]
     ),
     JsonData = Json.Document(Source)
@@ -346,7 +346,7 @@ in
 ```m
 let
     Source = Web.Contents(
-        "https://api.constellation-barriers.com/api/change-history",
+        "https://api.constellation-barriers.wonderdatalabs.com/api/change-history",
         [Headers=[#"X-API-Key"="sua-chave-aqui"]]
     ),
     JsonData = Json.Document(Source),
@@ -432,7 +432,7 @@ Todas as respostas são em formato JSON com encoding UTF-8.
 import requests
 
 headers = {'X-API-Key': 'sua-chave-aqui'}
-url = 'https://api.constellation-barriers.com/api/dashboard-summary'
+url = 'https://api.constellation-barriers.wonderdatalabs.com/api/dashboard-summary'
 
 response = requests.get(url, headers=headers)
 data = response.json()
@@ -444,7 +444,7 @@ print(f"Total de barreiras: {data['summary']['total_barriers']}")
 ```javascript
 const headers = {'X-API-Key': 'sua-chave-aqui'};
 
-fetch('https://api.constellation-barriers.com/api/dashboard-summary', {
+fetch('https://api.constellation-barriers.wonderdatalabs.com/api/dashboard-summary', {
     headers: headers
 })
 .then(response => response.json())
@@ -457,15 +457,15 @@ fetch('https://api.constellation-barriers.com/api/dashboard-summary', {
 ```bash
 # Dashboard Summary
 curl -H "X-API-Key: sua-chave-aqui" \
-     https://api.constellation-barriers.com/api/dashboard-summary
+     https://api.constellation-barriers.wonderdatalabs.com/api/dashboard-summary
 
 # Problemas Ativos
 curl -H "X-API-Key: sua-chave-aqui" \
-     https://api.constellation-barriers.com/api/active-problems
+     https://api.constellation-barriers.wonderdatalabs.com/api/active-problems
 
 # Histórico com Paginação
 curl -H "X-API-Key: sua-chave-aqui" \
-     "https://api.constellation-barriers.com/api/change-history?page=1&per_page=100"
+     "https://api.constellation-barriers.wonderdatalabs.com/api/change-history?page=1&per_page=100"
 ```
 
 ---
